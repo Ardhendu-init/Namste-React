@@ -1,0 +1,21 @@
+<!-- Q. Write the code to display "Hello World " heading inside a div in html using
+js and not writing it directly inside the html tag. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      let a = document.createElement("h1");
+      let b = document.getElementById("root");
+      a.innerHTML = "hello jui";
+      let x = b.appendChild(a);
+    </script>
+  </body>
+</html>
